@@ -45,7 +45,7 @@ router.route('/:id?')
             return res.status(500).json({error:confirm_user.err.message})
         }
 
-        // confirm_user = confirm_user.toJSON()
+        confirm_user = confirm_user.toJSON()
         delete confirm_user.password
 
         return res.status(201).json(confirm_user)

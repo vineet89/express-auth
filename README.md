@@ -8,7 +8,7 @@ Every software project needs some form of authentication, authorization and user
 2. Auhorization - The server can obtain data about user's role after decoding the supplied key. This information can then be used to determine if this user has the privelege to access the given API endpoint. 
 3. User management - Users may be added or removed from the system. Their roles/privileges may be altered and so on.
 
-The purpose of this project is to provide meaningful boiler plate code for getting project off the ground quickly.
+The purpose of this project is to provide meaningful boiler plate code for getting the API off the ground quickly.
 
 **Objectives**
 
@@ -31,3 +31,5 @@ export default env
 Then go to terminal and run
 
 `npm start` or `npm run live` if you have nodemon installed and want hot reloading.
+
+Use Postman to test the API.
