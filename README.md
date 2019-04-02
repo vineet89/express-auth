@@ -4,11 +4,11 @@
 
 Every software project needs some form of authentication, authorization and user management.
 
-1. Authentication - Checking the JWT(JSON Web Token) supplied with the request to make sure they had supplied correct credentials at some point in the past. Generally this data is encrypted with a key which is only known to the server.
-2. Auhorization - The server can obtain data about user's role after decoding the supplied key. This information can then be used to determine if this user has the privelege to access the given API endpoint. 
+1. Authentication - Managing signed keys to authenticate user requests. This implementation will use JSON web tokens 
+2. Auhorization - The server can obtain data about user's role after decoding the token supplied with request. This information can then be used to determine if this user has the privelege to access the given API endpoint, for example by using middleware function. 
 3. User management - Users may be added or removed from the system. Their roles/privileges may be altered and so on.
 
-The purpose of this project is to provide meaningful boiler plate code for getting the API off the ground quickly.
+The purpose of this project is to provide meaningful boiler plate code for getting the API off the ground quickly for projects which make use of these functions.
 
 **Objectives**
 
