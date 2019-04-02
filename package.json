@@ -1,0 +1,19 @@
+{
+  "name": "express-auth",
+  "version": "0.1.0",
+  "description": "A nodejs project using Express with authorization set up.",
+  "main": "index.mjs",
+  "scripts": {
+    "start": "node --experimental-modules server/index.mjs",
+    "live": "nodemon --experimental-modules server/index.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vineet Markan",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.5",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.20"
+  }
+}
